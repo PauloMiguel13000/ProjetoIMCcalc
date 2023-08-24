@@ -21,7 +21,7 @@
 </div>
 <div class="divbutton">
 <button type="submit" value="Cadastrar" name=""  >Cadastrar</button>
-<script src="javascript_login"></script>
+
 
 </div>
 </form>
