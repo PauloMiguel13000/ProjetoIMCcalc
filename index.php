@@ -21,7 +21,7 @@
 </div>
 <div class="divbutton">
 <button type="submit" value="Cadastrar" name=""  >Cadastrar</button>
-<h4>Diga-nos o seu nome e email para o nosso banco de dados</h4>
+<h4>Diga-nos o seu nome e email para o nosso banco de dados :)</h4>
 
 
 </div>
