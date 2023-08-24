@@ -14,10 +14,7 @@
    
 <div class="divbutton">
     
-<button type="submit" value="Cadastrar" name="" id="Logar" onclick="logar()" >Cadastrar</button>
-<script src="/javascript_home.js">
-    
-</script>
+<button type="submit" value="Cadastrar" name="" id="Logar"  >Verificar</button>
 
 </div>
 
