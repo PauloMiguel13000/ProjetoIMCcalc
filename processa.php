@@ -25,7 +25,7 @@ if (!($rUsuario = mysqli_query($conn, $qUsuario))){
    /* Redirect to a different page in the current directory that was requested */
 $host  = $_SERVER['HTTP_HOST'];
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-$extra = 'index.html';
+$extra = 'calcIMC.html';
 header("Location: http://$host$uri/$extra");
 exit;
     
@@ -36,6 +36,11 @@ exit;
     print "<br>Nome: ".$UsuarioNome;
     print "<br>E-mail: ".$UsuarioEmail;
     print "<br>ID: ".$UsuarioID;
+      /* Redirect to a different page in the current directory that was requested */
+$host  = $_SERVER['HTTP_HOST'];
+$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$extra = 'home.php';
+header("Location: http://$host$uri/$extra");
 }
 /*
 if($UsuarioID = mysqli_insert_id($conn)) {
